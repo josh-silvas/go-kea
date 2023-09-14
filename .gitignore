@@ -1,0 +1,20 @@
+*.dll
+*.exe
+*/**/.DS_Store
+bin/
+dist/
+modules-dev/
+*.backup
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+
+# Ignore binary files
+develop/.env
+
+# Keep windows files with windows line endings
+*.winfile eol=crlf
